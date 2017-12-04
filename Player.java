@@ -1,5 +1,6 @@
-// First Without Encapsulaiton.
+// First Without Encapsulaiton and it's problems. 
 public class Player {
+
     public String fullName;
     public int health;
     public String weapon;

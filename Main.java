@@ -9,5 +9,9 @@ public class Main {
         int damage = 10;
         player.loseHealth(damage);
         System.out.println("Remaining health = " + player.healthRemaining());
+
+        damage = 11;
+        player.loseHealth(damage);
+        System.out.println("Remaining health = " + player.healthRemaining());
     }
 }

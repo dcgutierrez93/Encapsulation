@@ -2,7 +2,7 @@
 public class Main {
     public static void main(String[] args) {
         Player player = new Player();
-        player.name = "David";
+        player.fullName = "David";
         player.health = 20;
         player.weapon = "Sword";
 
@@ -11,6 +11,8 @@ public class Main {
         System.out.println("Remaining health = " + player.healthRemaining());
 
         damage = 11;
+        // access in ways you don't want it to (Encapsulaiton)
+        player.health = 200;
         player.loseHealth(damage);
         System.out.println("Remaining health = " + player.healthRemaining());
     }
